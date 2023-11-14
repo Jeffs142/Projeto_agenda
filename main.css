@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif; /* padronização da página*/
+}
+
+body {
+    background-color: rgb(219, 255, 17);
+    padding-top: 100px; /*preenchimento acima do titulo*/
+}
+
+header {
+    display: flex; /*alinha os elementos um do lado do outro*/
+    align-items: center;  /*alinha os elementos no centro*/
+    margin-bottom: 40px; /*Margem/distancia da imagem e o contato para o formulario */
+}
+
+header img {
+    height: 36px;  /*altura da imagem*/
+    margin-right: 16px;  /*margem na direita*/
+}
+
+header h1 {
+    font-size: 40px;  /*tamanho da fonte do titulo*/
+    font-weight: bold;  /*largura da fonte*/
+}
+
+.container {
+    max-width: 960px; /* quer dizer que o container vai ocupar 100% da tela até 960px*/
+    width: 100%;
+    margin: 0 auto; /*magem 0 em cima e em baixo e automatica nas laterais*/
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000; /*traço abaixo das caixas*/
+    padding: 8px;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none; /*Comando para remover a borda da caixa*/
+    cursor: pointer; /*troca a seta do mouse pela mãozinha*/
+    padding: 8px;
+}
+
+table {
+    width: 100%; /*preenche dentro do que foi estipulado*/
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0; /*a sequência é sempre o primeiro para o topo e rodape e o segundo para as laterais*/
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid gray;
+}

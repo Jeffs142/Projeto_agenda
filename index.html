@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contato</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Poppins&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="imagem/icone-telefone-png-download-3.png" alt="Icone telefone">
+            <h1>Agenda de contato</h1>
+        </header>
+        <form id="form-atividade">
+            <input type="text" id="nome-contato" required placeholder="Nome do contato" />
+            <input type="number" id="numero-contato" required placeholder="Número do contato" />
+            <button type="submit">Adicionar</button>
+        </form>
+        <table cellspacing="0"><!-- cellspacing elimina o espaço nos tracinhos em baixo dos textos-->
+            <thead>
+                <tr>
+                    <th>
+                        Nome do contato
+                    </th>
+                    <th>
+                        Número do contato
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nome 01</td>
+                    <td>Número 01</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
